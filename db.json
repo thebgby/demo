@@ -1,311 +1,650 @@
 {
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
-  "users": [
-        {
-            "id": 1,
-            "first_name": "John",
-            "last_name": "Doe",
-            "email": "john.doe@example.com",
-            "phone": "123-456-7890",
-            "country": "USA",
-            "age": 25,
-            "extension": "csv"
-        },
-        {
-            "id": 2,
-            "first_name": "Jane",
-            "last_name": "Smith",
-            "email": "jane.smith@example.com",
-            "phone": "987-654-3210",
-            "country": "Canada",
-            "age": 30,
-            "extension": "sql"
-        },
-        {
-            "id": 3,
-            "first_name": "Michael",
-            "last_name": "Johnson",
-            "email": "michael.johnson@example.com",
-            "phone": "456-789-0123",
-            "country": "UK",
-            "age": 28,
-            "extension": "txt"
-        },
-        {
-            "id": 4,
-            "first_name": "Emily",
-            "last_name": "Williams",
-            "email": "emily.williams@example.com",
-            "phone": "321-654-9870",
-            "country": "Australia",
-            "age": 32,
-            "extension": "csv"
-        },
-        {
-            "id": 5,
-            "first_name": "David",
-            "last_name": "Brown",
-            "email": "david.brown@example.com",
-            "phone": "654-321-0987",
-            "country": "Germany",
-            "age": 27,
-            "extension": "sql"
-        },
-        {
-            "id": 6,
-            "first_name": "Sarah",
-            "last_name": "Davis",
-            "email": "sarah.davis@example.com",
-            "phone": "789-012-3456",
-            "country": "France",
-            "age": 29,
-            "extension": "txt"
-        },
-        {
-            "id": 7,
-            "first_name": "Chris",
-            "last_name": "Miller",
-            "email": "chris.miller@example.com",
-            "phone": "012-345-6789",
-            "country": "Italy",
-            "age": 31,
-            "extension": "csv"
-        },
-        {
-            "id": 8,
-            "first_name": "Jessica",
-            "last_name": "Martinez",
-            "email": "jessica.martinez@example.com",
-            "phone": "345-678-9012",
-            "country": "Spain",
-            "age": 26,
-            "extension": "sql"
-        },
-        {
-            "id": 9,
-            "first_name": "Daniel",
-            "last_name": "Garcia",
-            "email": "daniel.garcia@example.com",
-            "phone": "678-901-2345",
-            "country": "Mexico",
-            "age": 33,
-            "extension": "txt"
-        },
-        {
-            "id": 10,
-            "first_name": "Laura",
-            "last_name": "Martinez",
-            "email": "laura.martinez@example.com",
-            "phone": "901-234-5678",
-            "country": "Brazil",
-            "age": 28,
-            "extension": "csv"
-        },
-        {
-            "id": 11,
-            "first_name": "James",
-            "last_name": "Taylor",
-            "email": "james.taylor@example.com",
-            "phone": "234-567-8901",
-            "country": "Russia",
-            "age": 34,
-            "extension": "sql"
-        },
-        {
-            "id": 12,
-            "first_name": "Megan",
-            "last_name": "Anderson",
-            "email": "megan.anderson@example.com",
-            "phone": "567-890-1234",
-            "country": "Japan",
-            "age": 26,
-            "extension": "txt"
-        },
-        {
-            "id": 13,
-            "first_name": "Anthony",
-            "last_name": "Thomas",
-            "email": "anthony.thomas@example.com",
-            "phone": "890-123-4567",
-            "country": "China",
-            "age": 32,
-            "extension": "csv"
-        },
-        {
-            "id": 14,
-            "first_name": "Lisa",
-            "last_name": "Jackson",
-            "email": "lisa.jackson@example.com",
-            "phone": "123-456-7890",
-            "country": "India",
-            "age": 29,
-            "extension": "sql"
-        },
-        {
-            "id": 15,
-            "first_name": "Matthew",
-            "last_name": "White",
-            "email": "matthew.white@example.com",
-            "phone": "456-789-0123",
-            "country": "South Korea",
-            "age": 27,
-            "extension": "txt"
-        },
-        {
-            "id": 16,
-            "first_name": "Olivia",
-            "last_name": "Harris",
-            "email": "olivia.harris@example.com",
-            "phone": "789-012-3456",
-            "country": "Netherlands",
-            "age": 31,
-            "extension": "csv"
-        },
-        {
-            "id": 17,
-            "first_name": "Alexander",
-            "last_name": "Martin",
-            "email": "alexander.martin@example.com",
-            "phone": "012-345-6789",
-            "country": "Sweden",
-            "age": 28,
-            "extension": "sql"
-        },
-        {
-            "id": 18,
-            "first_name": "Sophia",
-            "last_name": "Clark",
-            "email": "sophia.clark@example.com",
-            "phone": "345-678-9012",
-            "country": "Norway",
-            "age": 30,
-            "extension": "txt"
-        },
-        {
-            "id": 19,
-            "first_name": "Andrew",
-            "last_name": "Lewis",
-            "email": "andrew.lewis@example.com",
-            "phone": "678-901-2345",
-            "country": "Denmark",
-            "age": 25,
-            "extension": "csv"
-        },
-        {
-            "id": 20,
-            "first_name": "Emma",
-            "last_name": "Robinson",
-            "email": "emma.robinson@example.com",
-            "phone": "901-234-5678",
-            "country": "Finland",
-            "age": 33,
-            "extension": "sql"
-        },
-        {
-            "id": 21,
-            "first_name": "Joshua",
-            "last_name": "Walker",
-            "email": "joshua.walker@example.com",
-            "phone": "234-567-8901",
-            "country": "Switzerland",
-            "age": 27,
-            "extension": "txt"
-        },
-        {
-            "id": 22,
-            "first_name": "Hannah",
-            "last_name": "Young",
-            "email": "hannah.young@example.com",
-            "phone": "567-890-1234",
-            "country": "Austria",
-            "age": 31,
-            "extension": "csv"
-        },
-        {
-            "id": 23,
-            "first_name": "Joseph",
-            "last_name": "King",
-            "email": "joseph.king@example.com",
-            "phone": "890-123-4567",
-            "country": "Belgium",
-            "age": 30,
-            "extension": "sql"
-        },
-        {
-            "id": 24,
-            "first_name": "Isabella",
-            "last_name": "Allen",
-            "email": "isabella.allen@example.com",
-            "phone": "123-456-7890",
-            "country": "Portugal",
-            "age": 26,
-            "extension": "txt"
-        },
-        {
-            "id": 25,
-            "first_name": "Ryan",
-            "last_name": "Scott",
-            "email": "ryan.scott@example.com",
-            "phone": "456-789-0123",
-            "country": "Ireland",
-            "age": 28,
-            "extension": "csv"
-        },
-        {
-            "id": 26,
-            "first_name": "Ava",
-            "last_name": "Hill",
-            "email": "ava.hill@example.com",
-            "phone": "789-012-3456",
-            "country": "New Zealand",
-            "age": 29,
-            "extension": "sql"
-        },
-        {
-            "id": 27,
-            "first_name": "Jacob",
-            "last_name": "Green",
-            "email": "jacob.green@example.com",
-            "phone": "012-345-6789",
-            "country": "South Africa",
-            "age": 32,
-            "extension": "txt"
-        },
-        {
-            "id": 28,
-            "first_name": "Charlotte",
-            "last_name": "Adams",
-            "email": "charlotte.adams@example.com",
-            "phone": "345-678-9012",
-            "country": "Argentina",
-            "age": 27,
-            "extension": "csv"
-        },
-        {
-            "id": 29,
-            "first_name": "Ethan",
-            "last_name": "Baker",
-            "email": "ethan.baker@example.com",
-            "phone": "678-901-2345",
-            "country": "Chile",
-            "age": 34,
-            "extension": "sql"
-        },
-        {
-            "id": 30,
-            "first_name": "Amelia",
-            "last_name": "Gonzalez",
-            "email": "amelia.gonzalez@example.com",
-            "phone": "901-234-5678",
-            "country": "Peru",
-            "age": 25,
-            "extension": "txt"
-        }
-    ]
-}
+      "question": "Python built-in numeric data types:",
+      "choice1": "int, bigint, float",
+      "choice2": "int, float, complex",
+      "choice3": "str, list, int, float",
+      "choice4": "int, float, complex, money",
+      "answer": 2
+    },
+    {
+      "question": "10//3 = ?",
+      "choice1": "1",
+      "choice2": "3",
+      "choice3": "3, 1",
+      "choice4": "1, 3",
+      "answer": 2
+    },
+    {
+      "question": "10**3 = ?",
+      "choice1": "100",
+      "choice2": "30",
+      "choice3": "3000",
+      "choice4": "1000",
+      "answer": 4
+    },
+    {
+      "question": "Which function can we use to check the data type?",
+      "choice1": "istype()",
+      "choice2": "isinstance()",
+      "choice3": "dir()",
+      "choice4": "id()",
+      "answer": 2
+    },
+    {
+      "question": "Which of the following statements about Python data types is TRUE?",
+      "choice1": "Strings are mutable and ordered.",
+      "choice2": "Tuples are immutable and unordered.",
+      "choice3": "Lists are mutable and ordered.",
+      "choice4": "Sets are immutable and ordered.",
+      "answer": 3
+    },
+    {
+      "question": "What happens if you try to modify an immutable data type?",
+      "choice1": "Python raises an error.",
+      "choice2": "A new object is created.",
+      "choice3": "Python raises an error.",
+      "choice4": "Both B and C",
+      "answer": 4
+    },
+    {
+      "question": "Which of the following is not an iterable in Python?",
+      "choice1": "list",
+      "choice2": "tuple",
+      "choice3": "str",
+      "choice4": "int",
+      "answer": 4
+    },
+    {
+      "question": "Which of these data types is immutable?",
+      "choice1": "tuple, str",
+      "choice2": "list, tuple",
+      "choice3": "list, dict",
+      "choice4": "dict, str, list, tuple",
+      "answer": 1
+    },
+    {
+      "question": "Which of the following creates a valid string in Python?",
+      "choice1": "'Hello world'",
+      "choice2": "\"Hello world\"",
+      "choice3": "'''Multiline String'''",
+      "choice4": "All of the above",
+      "answer": 4
+    },
+    {
+      "question": "What does the escape sequence \\n do in a string?",
+      "choice1": "Adds a space",
+      "choice2": "Inserts a tab",
+      "choice3": "Moves the cursor to the next line",
+      "choice4": "Ignores the next character",
+      "answer": 3
+    },
+    {
+      "question": "Given the string s = 'Python', what does s[1:5:2] return?",
+      "choice1": "yt",
+      "choice2": "yh",
+      "choice3": "to",
+      "choice4": "yo",
+      "answer": 4
+    },
+    {
+      "question": "Which of the following is NOT a string method in Python?",
+      "choice1": ".split()",
+      "choice2": ".append()",
+      "choice3": ".lower()",
+      "choice4": ".replace()",
+      "answer": 2
+    },
+    {
+      "question": "Which of the following is an example of string formatting using f-strings?",
+      "choice1": "f\"Hello, {name}!\"",
+      "choice2": "\"Hello, {}!\".format(name)",
+      "choice3": "\"%s is learning Python\" % name",
+      "choice4": "None of the above",
+      "answer": 1
+    },
+    {
+      "question": "What does the * operator do when applied to a string?",
+      "choice1": "Combines two strings",
+      "choice2": "Repeats the string multiple times",
+      "choice3": "Removes characters from the string",
+      "choice4": "Raises an error",
+      "answer": 2
+    },
+    {
+      "question": "Which of the following is a valid way to create a list in Python?",
+      "choice1": "list1 = [1, 2, 3]",
+      "choice2": "list2 = list('abc')",
+      "choice3": "list3 = []",
+      "choice4": "All of the above",
+      "answer": 4
+    },
+    {
+      "question": "How can you convert a string \"hello\" into a list of its characters?",
+      "choice1": "list = str(\"hello\")",
+      "choice2": "list(\"hello\")",
+      "choice3": "list = [\"hello\"]",
+      "choice4": "None of the above",
+      "answer": 2
+    },
+    {
+      "question": "Which of the following is NOT a valid list method?",
+      "choice1": ".append()",
+      "choice2": ".pop()",
+      "choice3": ".sort()",
+      "choice4": ".replace()",
+      "answer": 4
+    },
+    {
+      "question": "How do you add an element 42 to the end of the list my_list = [1, 2, 3]?",
+      "choice1": "my_list.add(42)",
+      "choice2": "my_list.append(42)",
+      "choice3": "my_list[3] = 42",
+      "choice4": "my_list.insert(42)",
+      "answer": 2
+    },
+    {
+      "question": "What does my_list[1] = \"Python\" do in the list my_list = [10, 20, 30]?",
+      "choice1": "Replaces the element at index 1 with \"Python\"",
+      "choice2": "Adds \"Python\" to the end of the list",
+      "choice3": "Removes the element at index 1",
+      "choice4": "Raises an error",
+      "answer": 1
+    },
+    {
+      "question": "What is the difference between shallow copy and deep copy of a list?",
+      "choice1": "Shallow copy copies references, while deep copy creates a new object.",
+      "choice2": "Shallow copy creates a new object, while deep copy copies references.",
+      "choice3": "Both copy references only.",
+      "choice4": "Both create a new object.",
+      "answer": 1
+    },
+    {
+      "question": "How do you create a tuple with one element?",
+      "choice1": "t = (1)",
+      "choice2": "t = (1, )",
+      "choice3": "t = tuple(1)",
+      "choice4": "t = [1]",
+      "answer": 2
+    },
+    {
+      "question": "Which of the following is TRUE about tuples?",
+      "choice1": "Tuples are mutable.",
+      "choice2": "Tuples are created using square brackets [].",
+      "choice3": "Tuples are immutable.",
+      "choice4": "Tuples cannot contain mixed data types.",
+      "answer": 3
+    },
+    {
+      "question": "How can you unpack the tuple t = (10, 20, 30) into three variables?",
+      "choice1": "a, b, c = t",
+      "choice2": "a, b, c = (10, 20, 30)",
+      "choice3": "Both A and B",
+      "choice4": "None of the above",
+      "answer": 3
+    },
+    {
+      "question": "Which of the following is NOT a valid way to create an empty list or tuple?",
+      "choice1": "list1 = []",
+      "choice2": "list1 = list()",
+      "choice3": "tuple1 = ()",
+      "choice4": "tuple1 = (None)",
+      "answer": 4
+    },
+    {
+      "question": "Which of the following is the primary difference between a list and a tuple?",
+      "choice1": "Lists are immutable, tuples are mutable.",
+      "choice2": "Lists are mutable, tuples are immutable.",
+      "choice3": "Lists use parentheses (), tuples use square brackets [].",
+      "choice4": "There is no difference.",
+      "answer": 2
+    },
+    {
+      "question": "Which of the following is NOT a valid way to create a dictionary in Python?",
+      "choice1": "my_dict = {}",
+      "choice2": "my_dict = dict()",
+      "choice3": "my_dict = {\"key1\": \"value1\", \"key2\": \"value2\"}",
+      "choice4": "my_dict = [\"key1\": \"value1\", \"key2\": \"value2\"]",
+      "answer": 4
+    },
+    {
+      "question": "How can you access the value associated with a key in a dictionary?",
+      "choice1": "my_dict.key",
+      "choice2": "my_dict.get(\"key\")",
+      "choice3": "my_dict[\"key\"]",
+      "choice4": "Both B and C",
+      "answer": 4
+    },
+    {
+      "question": "Which of the following is NOT a method for dictionaries in Python?",
+      "choice1": ".keys()",
+      "choice2": ".values()",
+      "choice3": ".update()",
+      "choice4": ".append()",
+      "answer": 4
+    },
+    {
+      "question": "What happens when you try to add a new key-value pair to an existing dictionary? (d = {\"a\":1} d[\"b\"] = 2)",
+      "choice1": "Adds a new key-value pair: 'b': 2",
+      "choice2": "Raises an error",
+      "choice3": "Replaces the existing key 'a'",
+      "choice4": "Deletes the existing key 'a'",
+      "answer": 1
+    },
+    {
+      "question": "What is a key difference between sets and dictionaries in Python?",
+      "choice1": "Sets are immutable, dictionaries are mutable.",
+      "choice2": "Sets do not store key-value pairs, dictionaries do.",
+      "choice3": "Sets store duplicate values, dictionaries do not.",
+      "choice4": "Sets use [] brackets, dictionaries use {}.",
+      "answer": 2
+    },
+    {
+      "question": "Which of the following operations is valid for sets?",
+      "choice1": "set1.union(set2)",
+      "choice2": "set1.intersection(set2)",
+      "choice3": "set1.difference(set2)",
+      "choice4": "All of the above",
+      "answer": 4
+    },
+    {
+      "question": "How can you remove an element x from a set my_set?",
+      "choice1": "my_set.delete(x)",
+      "choice2": "my_set.remove(x)",
+      "choice3": "my_set.pop(x)",
+      "choice4": "my_set.clear(x)",
+      "answer": 2
+    },
+    {
+      "question": "What happens if you use the .add() method on a set with an element that already exists?",
+      "choice1": "Raises an error",
+      "choice2": "Ignores the operation, as duplicates are not allowed in sets",
+      "choice3": "Replaces the existing element",
+      "choice4": "Appends the new element to the set",
+      "answer": 2
+    },
+    {
+      "question": "Which of the following is the correct representation of a Boolean data type in Python?",
+      "choice1": "TRUE and FALSE",
+      "choice2": "1 and 0",
+      "choice3": "True and False",
+      "choice4": "Yes and No",
+      "answer": 3
+    },
+    {
+      "question": "What is the output of the following conditional statement? if None: print('Yes') else: print('No')",
+      "choice1": "Yes",
+      "choice2": "No",
+      "choice3": "Error",
+      "choice4": "None",
+      "answer": 2
+    },
+    {
+      "question": "Which of the following is NOT a comparison operator in Python?",
+      "choice1": ">=",
+      "choice2": "<=",
+      "choice3": "===",
+      "choice4": "!=",
+      "answer": 3
+    },
+    {
+      "question": "Which logical operator returns True if both conditions are True?",
+      "choice1": "or",
+      "choice2": "and",
+      "choice3": "not",
+      "choice4": "is",
+      "answer": 2
+    },
+    {
+      "question": "What is the difference between the 'is' and '==' operators in Python?",
+      "choice1": "'is' checks reference equality, '==' checks value equality.",
+      "choice2": "'is' checks value equality, '==' checks reference equality.",
+      "choice3": "Both are the same in functionality.",
+      "choice4": "'is' is used for objects, '==' is used for strings.",
+      "answer": 1
+    },
+    {
+      "question": "Which of the following are the main types of loops in Python?",
+      "choice1": "for and while",
+      "choice2": "if and else",
+      "choice3": "try and except",
+      "choice4": "do and while",
+      "answer": 1
+    },
+    {
+      "question": "What does the following code do? for index, value in enumerate(['a', 'b', 'c']): print(index, value)",
+      "choice1": "Iterates over the list and prints each element.",
+      "choice2": "Prints the index and corresponding value of each element in the list.",
+      "choice3": "Prints the values only.",
+      "choice4": "Raises an error.",
+      "answer": 2
+    },
+    {
+      "question": "What is the purpose of the zip() function in Python?",
+      "choice1": "Combines two or more iterables into pairs of tuples.",
+      "choice2": "Enumerates the indices of an iterable.",
+      "choice3": "Sorts elements of an iterable.",
+      "choice4": "Reverses an iterable.",
+      "answer": 1
+    },
+    {
+      "question": "Which statement is used to break out of a loop in Python?",
+      "choice1": "exit",
+      "choice2": "continue",
+      "choice3": "break",
+      "choice4": "stop",
+      "answer": 3
+    },
+    {
+      "question": "What does the else clause in a loop mean?",
+      "choice1": "Executes only when the loop runs indefinitely.",
+      "choice2": "Executes if the loop completes without a break.",
+      "choice3": "Executes after each iteration of the loop.",
+      "choice4": "Executes if the loop is skipped by continue.",
+      "answer": 2
+    },
+    {
+      "question": "What is a list comprehension in Python?",
+      "choice1": "A shorthand way to create a list.",
+      "choice2": "A function that enumerates lists.",
+      "choice3": "A method to sort a list.",
+      "choice4": "A function that iterates over two lists.",
+      "answer": 1
+    },
+    {
+      "question": "Which of the following is the correct way to define a function in Python?",
+      "choice1": "function my_function():",
+      "choice2": "def my_function():",
+      "choice3": "my_function() { }",
+      "choice4": "function: my_function()",
+      "answer": 2
+    },
+    {
+      "question": "What is the correct way to use type hinting in Python functions?",
+      "choice1": "def add(a: int, b: int) -> int: return a + b",
+      "choice2": "def add(int a, int b): return a + b",
+      "choice3": "def add(a, b -> int): return a + b",
+      "choice4": "int def add(a, b): return a + b",
+      "answer": 1
+    },
+    {
+      "question": "What does the `*args` parameter in a function do?",
+      "choice1": "Accepts an arbitrary number of keyword arguments.",
+      "choice2": "Defines a required argument for the function.",
+      "choice3": "Accepts an arbitrary number of positional arguments.",
+      "choice4": "Specifies a default value for the function parameter.",
+      "answer": 3
+    },
+    {
+      "question": "What happens if you do not provide a required argument when calling a function?",
+      "choice1": "The function assigns a default value automatically.",
+      "choice2": "The function raises a `TypeError`.",
+      "choice3": "The function executes without the argument.",
+      "choice4": "The function ignores the missing argument.",
+      "answer": 2
+    },
+    {
+      "question": "What is a recursive function in Python?",
+      "choice1": "A function that returns multiple values.",
+      "choice2": "A function that accepts variable arguments.",
+      "choice3": "A function that calls itself.",
+      "choice4": "A function that runs indefinitely.",
+      "answer": 3
+    },
+    {
+      "question": "Which of the following statements about scope in Python is TRUE?",
+      "choice1": "Global variables can be modified without declaration inside a function.",
+      "choice2": "Variables defined inside a function are accessible outside of it.",
+      "choice3": "Variables defined inside a function are local to that function.",
+      "choice4": "Python does not support variable scope.",
+      "answer": 3
+    },
+    {
+      "question": "What is the purpose of the `try` and `except` blocks in Python?",
+      "choice1": "To execute code only when an error occurs.",
+      "choice2": "To handle exceptions and prevent program crashes.",
+      "choice3": "To skip sections of code.",
+      "choice4": "To raise an exception manually.",
+      "answer": 2
+    },
+    {
+      "question": "How can you raise a custom exception in Python?",
+      "choice1": "raise 'An error occurred'",
+      "choice2": "throw Exception('An error occurred')",
+      "choice3": "raise Exception('An error occurred')",
+      "choice4": "except Exception: pass",
+      "answer": 3
+    },
+    {
+      "question": "What is the purpose of the `finally` block in Python exception handling?",
+      "choice1": "To execute code only if no exceptions occur.",
+      "choice2": "To handle specific exceptions.",
+      "choice3": "To execute code regardless of whether an exception occurred.",
+      "choice4": "To skip to the end of the program.",
+      "answer": 3
+    },
+    {
+      "question": "What does the file mode `w` do when opening a file in Python?",
+      "choice1": "Reads the file contents.",
+      "choice2": "Appends new data to the file.",
+      "choice3": "Overwrites the file if it exists or creates a new file.",
+      "choice4": "Prevents writing to the file.",
+      "answer": 3
+    },
+    {
+      "question": "What happens if you open a file in `r` mode but the file does not exist?",
+      "choice1": "The file is created automatically.",
+      "choice2": "An `IOError` or `FileNotFoundError` is raised.",
+      "choice3": "The program continues without reading the file.",
+      "choice4": "An empty string is returned.",
+      "answer": 2
+    },
+    {
+      "question": "What is the primary purpose of a class in Python?",
+      "choice1": "To define variables only.",
+      "choice2": "To group methods and attributes into a blueprint for objects.",
+      "choice3": "To execute code in a loop.",
+      "choice4": "To define private methods only.",
+      "answer": 2
+    },
+    {
+      "question": "What is the purpose of the `self` parameter in class methods?",
+      "choice1": "It represents the class itself.",
+      "choice2": "It refers to the object instance calling the method.",
+      "choice3": "It is used for creating private attributes.",
+      "choice4": "It is required only in private methods.",
+      "answer": 2
+    },
+    {
+      "question": "Which of the following is TRUE about private methods in Python?",
+      "choice1": "They are defined with a single underscore prefix (_method).",
+      "choice2": "They are defined with a double underscore prefix (__method).",
+      "choice3": "They cannot be accessed outside the class directly.",
+      "choice4": "Both B and C.",
+      "answer": 4
+    },
+    {
+      "question": "How do you call a parent class's method in a child class?",
+      "choice1": "By creating a new instance of the parent class.",
+      "choice2": "Using the `super()` function.",
+      "choice3": "Using `self.method()`.",
+      "choice4": "By overriding the parent method.",
+      "answer": 2
+    },
+    {
+      "question": "What is the difference between class attributes and instance attributes?",
+      "choice1": "Class attributes are shared across all objects, instance attributes are specific to each object.",
+      "choice2": "Instance attributes are shared across all objects, class attributes are specific to each object.",
+      "choice3": "Both are always unique to each object.",
+      "choice4": "There is no difference between them.",
+      "answer": 1
+    },
+    {
+      "question": "Which of the following is the correct way to import a module with an alias in Python?",
+      "choice1": "import module as alias_name",
+      "choice2": "from module import alias_name",
+      "choice3": "alias_name import module",
+      "choice4": "module as alias_name",
+      "answer": 1
+    },
+    {
+      "question": "What is the purpose of the `__init__.py` file in a package?",
+      "choice1": "To define the name of the package.",
+      "choice2": "To initialize all global variables.",
+      "choice3": "To mark a directory as a package and optionally execute initialization code.",
+      "choice4": "To create an empty package.",
+      "answer": 3
+    },
+    {
+      "question": "How do you install a package using `pip`?",
+      "choice1": "install pip package_name",
+      "choice2": "pip install package_name",
+      "choice3": "import package_name using pip",
+      "choice4": "pip package_name install",
+      "answer": 2
+    },
+    {
+      "question": "What is the purpose of the `requirements.txt` file?",
+      "choice1": "To list all the available Python modules.",
+      "choice2": "To specify the packages required for a Python project.",
+      "choice3": "To install all packages automatically.",
+      "choice4": "To create a virtual environment.",
+      "answer": 2
+    },
+    {
+      "question": "What is the benefit of using a virtual environment in Python?",
+      "choice1": "It allows Python to run faster.",
+      "choice2": "It isolates dependencies for different projects.",
+      "choice3": "It creates backups of Python scripts.",
+      "choice4": "It allows running Python without installation.",
+      "answer": 2
+    },
+    {
+      "question": "Which command lists all installed Python packages?",
+      "choice1": "pip list",
+      "choice2": "pip show",
+      "choice3": "python --packages",
+      "choice4": "pip packages --all",
+      "answer": 1
+    },
+    {
+      "question": "Which of the following is TRUE about the `json` module in Python?",
+      "choice1": "It is used to work with database queries.",
+      "choice2": "It allows encoding and decoding JSON data.",
+      "choice3": "It handles XML data conversion.",
+      "choice4": "It is only for creating APIs.",
+      "answer": 2
+    },
+    {
+      "question": "How can you convert a JSON string into a Python dictionary?",
+      "choice1": "json.load(string)",
+      "choice2": "json.loads(string)",
+      "choice3": "json.dump(string)",
+      "choice4": "json.dumps(string)",
+      "answer": 2
+    },
+    {
+      "question": "Which HTTP method is used to retrieve data from a server using the `requests` module?",
+      "choice1": "POST",
+      "choice2": "PUT",
+      "choice3": "GET",
+      "choice4": "DELETE",
+      "answer": 3
+    },
+    {
+      "question": "What does the following code do? `response = requests.post(url, data=payload)`",
+      "choice1": "Sends a POST request with the provided payload to the URL.",
+      "choice2": "Sends a GET request to fetch data from the URL.",
+      "choice3": "Deletes the payload at the URL.",
+      "choice4": "Updates the payload at the URL.",
+      "answer": 1
+    },
+    {
+      "question": "What is the purpose of the PUT HTTP method in REST APIs?",
+      "choice1": "To delete an existing resource.",
+      "choice2": "To update or create a resource.",
+      "choice3": "To fetch data from a resource.",
+      "choice4": "To submit data to be processed.",
+      "answer": 2
+    },
+    {
+      "question": "What is a Pandas DataFrame?",
+      "choice1": "A 1-dimensional labeled array.",
+      "choice2": "A 2-dimensional labeled data structure with rows and columns.",
+      "choice3": "A collection of dictionaries.",
+      "choice4": "An immutable table-like data structure.",
+      "answer": 2
+    },
+    {
+      "question": "Which method in Pandas is used to get the first few rows of a DataFrame?",
+      "choice1": "DataFrame.tail()",
+      "choice2": "DataFrame.head()",
+      "choice3": "DataFrame.info()",
+      "choice4": "DataFrame.describe()",
+      "answer": 2
+    },
+    {
+      "question": "What does the `fillna()` method do in Pandas?",
+      "choice1": "Drops rows with NaN values.",
+      "choice2": "Fills NaN values with a specified value.",
+      "choice3": "Filters rows with NaN values.",
+      "choice4": "Renames NaN values.",
+      "answer": 2
+    },
+    {
+      "question": "How can you select a row in a DataFrame using its label?",
+      "choice1": "Using the `iloc[]` method.",
+      "choice2": "Using the `loc[]` method.",
+      "choice3": "Using the `columns` attribute.",
+      "choice4": "Using the `head()` method.",
+      "answer": 2
+    },
+    {
+      "question": "Which of the following is a correct way to rename columns in a DataFrame?",
+      "choice1": "DataFrame.rename(columns={'old_name': 'new_name'})",
+      "choice2": "DataFrame.columns.rename({'old_name': 'new_name'})",
+      "choice3": "DataFrame.change_column_name('old_name', 'new_name')",
+      "choice4": "DataFrame.columns({'old_name': 'new_name'})",
+      "answer": 1
+    },
+    {
+      "question": "What does the `isin()` method do in Pandas?",
+      "choice1": "Checks if a value is between two other values.",
+      "choice2": "Filters rows based on values in a list.",
+      "choice3": "Drops rows with certain values.",
+      "choice4": "Fills missing values based on a list.",
+      "answer": 2
+    },
+    {
+      "question": "How do you combine two DataFrames vertically in Pandas?",
+      "choice1": "Using the `merge()` method.",
+      "choice2": "Using the `concat()` method.",
+      "choice3": "Using the `join()` method.",
+      "choice4": "Using the `groupby()` method.",
+      "answer": 2
+    },
+    {
+      "question": "Which method is used to group data in a DataFrame by a column?",
+      "choice1": "DataFrame.groupby()",
+      "choice2": "DataFrame.aggregate()",
+      "choice3": "DataFrame.concat()",
+      "choice4": "DataFrame.merge()",
+      "answer": 1
+    },
+    {
+      "question": "What is the purpose of the `drop_duplicates()` method in Pandas?",
+      "choice1": "Removes all columns from the DataFrame.",
+      "choice2": "Drops rows with NaN values.",
+      "choice3": "Removes duplicate rows from the DataFrame.",
+      "choice4": "Replaces duplicate values with NaN.",
+      "answer": 3
+    },
+    {
+      "question": "How do you filter rows in a DataFrame based on a condition?",
+      "choice1": "Using the `filter()` method.",
+      "choice2": "Using the `loc[]` method with a condition.",
+      "choice3": "Using the `columns` attribute.",
+      "choice4": "Using the `head()` method with a condition.",
+      "answer": 2
+    }
+  
+  
